@@ -1,4 +1,4 @@
-import core from '@actions/core';
+import * as core from '@actions/core';
 import waitOn, { WaitOnOptions } from 'wait-on';
 
 function numberInput(name: string) {
